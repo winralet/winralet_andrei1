@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: #e13333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ ul :hover{
+   color: #bdbdbd;
+   transform: scale(40);
+ }
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #ff4848;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255 255 255);
+    color:#fff;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color:#fff;
+}
+
+.product {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+}
+
+.add-to-cart {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #445762;
+    color: #ffffff;
+}
+
+
+
+.beautiful-button {
+    width:300px;
+    height:50px;
+    background-color: #5cb85c; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 15px 30px; /* Отступы кнопки */
+    font-size: 1.2em; /* Размер шрифта */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета и эффекта */
+                      
+    margin-top:10px; /* размеры*/
+    margin-left:px; /* размеры*/
+  }
+                  
+  .beautiful-button:hover {
+    background-color:#4cae4c; /* Цвет фона кнопки при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+  }
+                  
+  .beautiful-button:active {
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+  }
